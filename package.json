@@ -1,0 +1,24 @@
+{
+  "name": "second-life-project-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpeza/second-life-project-functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpeza/second-life-project-functions/issues"
+  },
+  "homepage": "https://github.com/dpeza/second-life-project-functions#readme",
+  "dependencies": {
+    "firebase": "^8.2.1",
+    "gmail-send": "^1.8.10",
+    "nodemailer": "^6.4.17"
+  }
+}
