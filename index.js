@@ -11,8 +11,8 @@ const firebaseConfig = {
 const send = require('gmail-send')({
     user: 'dimitripezaris@gmail.com',
     pass: 'DimitriP2004',
-    to:   'daniel.cohen@pinecrest.edu',
-    subject: 'testing this stupid thing',
+    to:   'dimitripezaris@gmail.com',
+    subject: 'testing this stupid thing on heroku',
 });
 firebase.initializeApp(firebaseConfig)
 let emailText = 'This weeks applications: '
